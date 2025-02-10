@@ -1,0 +1,93 @@
+@media screen and (max-width: 1280px) {
+    .baap {
+        display: flex;
+        gap: 13px;
+        flex-direction: column;
+    }
+
+    .box {
+        height: 20vh;
+        width: 100%;
+        background-color: #322F4E;
+        color: white;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .box2 {
+        height: 20vh;
+        width: 100%;
+        background-color: #322F4E;
+        color: white;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .box3 {
+        height: 20vh;
+        width: 100%;
+        background-color: #322F4E;
+        color: white;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .box4 {
+        height: 20vh;
+        width: 100%;
+        background-color: #322F4E;
+        color: white;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .hero> :first-child {
+        font-weight: 900;
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .hero> :nth-child(2) {
+        font-weight: 900;
+        font-size: 46px;
+        margin: -27px 0 0 0;
+        text-align: center;
+    }
+
+    .card-item img {
+        border-radius: 7px;
+        width: 16vw;
+    }
+
+    .main input {
+        font-size: 12px;
+        padding: 16px 74px 17px 20px;
+        border-radius: 7px;
+        background-color: rgba(23, 23, 23, 0.7);
+        border: 1px solid rgba(246, 238, 238, 0.5);
+        font-weight: bolder;
+        color: white;
+    }
+
+    .btn-red {
+        background-color: red;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 14px;
+        font-size: 16px;
+        padding: 15px 23px;
+        font-weight: 400;
+    }
+}
